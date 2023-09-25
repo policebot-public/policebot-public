@@ -3,5 +3,56 @@
 <head>
 </head>
 <body>
+    <!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Slash Commands</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">For Everyone</h5>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<table style="width:50%">
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+      <th>Who can use</th>
+    </tr>
+    <tr>
+      <td>/help</td>
+      <td>get a list of bot commands</td>
+      <td>Everyone</td>
+    </tr>
+    <tr>
+      <td>/serverpic</td>
+      <td>get the server picture</td>
+      <td>Server Members</td>
+    </tr>
+    <tr>
+        <td>/server_owner</td>
+        <td>find the server owner</td>
+        <td>Server Members</td>
+      </tr>
+      <tr>
+        <td>/feedback</td>
+        <td>send feedback to the bot developers</td>
+        <td>Everyone</td>
+      </tr>
+      <tr>
+        <td>report</td>
+        <td>report a message to mods*</td>
+        <td>Server Members</td>
+      </tr>
+      <tr><td>*requires setup (see /profile init)</td></tr>
+      <style>table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }</style>
+  </table>
+    <!-- /wp:html -->
+
+    <!-- wp:paragraph -->
+    <p>Many of the commands require server configuration. To configure your server, use<em> /profile init.</em> The options are as follows: <strong>Waiting room</strong>: the channel where new members go. Should be visible only to mods and the people with the new member role. <strong>New member role</strong>: the role that new members will get. Should only be able to see the waiting room. <strong>Mod role:</strong> the role for your mods to have. This role can access the moderation commands. </p>
+    <!-- /wp:paragraph -->
 </body>
 </html>
